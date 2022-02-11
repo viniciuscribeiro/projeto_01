@@ -265,6 +265,7 @@ main{
     }
 
     #nav.active #menu{
+        text-align: left;
         height: calc(100vh - 308px);
         visibility: visible;
         overflow-y: auto;
@@ -342,6 +343,13 @@ main{
     .imagem_de_fundo_branco{
         width: 50px;
     }
+}
+
+@media screen and (max-height: 550px){
+    
+    #nav.active #menu{
+        height: auto;
+    } 
 }
 
 @media screen and (max-width: 420px){
