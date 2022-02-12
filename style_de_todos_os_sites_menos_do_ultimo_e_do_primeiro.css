@@ -229,7 +229,10 @@ main{
 /*FOOTER*/
 
 footer{
-    padding: 50px;
+    padding-top: 80px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
 }
 
 .section_do_footer{
@@ -250,6 +253,7 @@ footer{
 .section_da_casa{
     display: inline-block; 
     margin-right: 50px;
+    margin-left: 50px;
 }
 
 .imagem_da_casa{
@@ -381,6 +385,17 @@ footer{
         display: block;
         width: 60px;
     }
+
+    .section_do_anterior{
+        border-radius: 50%;
+        display: inline-block;
+        background-color: white;
+    }
+    
+    .imagem_do_anterior{
+        display: block;
+        width: 60px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -419,6 +434,43 @@ footer{
 
     p.acesso_premium{
         font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 410px){
+
+    footer{
+        padding-right: 30px;
+        padding-bottom: 100px;
+        padding-left: 30px;
+    }
+
+    .section_da_casa{
+        display: inline-block; 
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .imagem_da_casa{
+        width: 60px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    
+    .imagem_do_proximo{
+        display: block;
+        width: 60px;
+    }
+
+    .section_do_anterior{
+        border-radius: 50%;
+        display: inline-block;
+        background-color: white;
+    }
+    
+    .imagem_do_anterior{
+        display: block;
+        width: 60px;
     }
 }
 
@@ -465,6 +517,17 @@ footer{
         display: block;
         width: 50px;
     }
+
+    .section_do_anterior{
+        border-radius: 50%;
+        display: inline-block;
+        background-color: white;
+    }
+    
+    .imagem_do_anterior{
+        display: block;
+        width: 50px;
+    }
 }
 
 @media screen and (max-width: 385px){
@@ -502,10 +565,81 @@ footer{
     }
 }
 
+@media screen and (max-width: 440px){
+
+    footer{
+        padding-right: 20px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+    }
+
+    .section_da_casa{
+        display: inline-block; 
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .imagem_da_casa{
+        width: 60px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    
+    .imagem_do_proximo{
+        display: block;
+        width: 60px;
+    }
+
+    .section_do_anterior{
+        border-radius: 50%;
+        display: inline-block;
+        background-color: white;
+    }
+    
+    .imagem_do_anterior{
+        display: block;
+        width: 60px;
+    }
+}
+
 @media screen and (max-width: 335px){
 
     .section_de_cada_image{
         padding-left: 7px;
+    }
+
+    footer{
+        padding-right: 20px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+    }
+
+    .section_da_casa{
+        display: inline-block; 
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .imagem_da_casa{
+        width: 55px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    
+    .imagem_do_proximo{
+        display: block;
+        width: 55px;
+    }
+
+    .section_do_anterior{
+        border-radius: 50%;
+        display: inline-block;
+        background-color: white;
+    }
+    
+    .imagem_do_anterior{
+        display: block;
+        width: 55px;
     }
 }
 
