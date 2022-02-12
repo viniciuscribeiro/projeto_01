@@ -228,7 +228,45 @@ main{
 
 /*FOOTER*/
 
+footer{
+    padding: 50px;
+}
 
+.section_do_footer{
+    text-align: center;
+}
+
+/*.section_do_anterior{
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+}*/
+
+/*.imagem_do_anterior{
+    width: 50px;
+}*/
+
+.section_da_casa{
+    display: inline-block; 
+    margin-right: 50px;
+}
+
+.imagem_da_casa{
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.section_do_proximo{
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+}
+
+.imagem_do_proximo{
+    display: block;
+    width: 70px;
+}
 
 .fundo_branco{
     background-color: white;
@@ -331,6 +369,17 @@ main{
     .imagem_de_fundo_branco{
         width: 60px;
     }
+
+    .imagem_da_casa{
+        width: 60px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    
+    .imagem_do_proximo{
+        display: block;
+        width: 60px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -403,6 +452,17 @@ main{
     .caption{
         padding: 10px;
         text-align: center;
+    }
+
+    .imagem_da_casa{
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    
+    .imagem_do_proximo{
+        display: block;
+        width: 50px;
     }
 }
 
