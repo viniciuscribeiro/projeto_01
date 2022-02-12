@@ -456,14 +456,14 @@ footer{
     }
 
     .imagem_da_casa{
-        width: 50px;
+        width: 55px;
         border-radius: 50%;
         background-color: white;
     }
     
     .imagem_do_proximo{
         display: block;
-        width: 50px;
+        width: 55px;
     }
 }
 
