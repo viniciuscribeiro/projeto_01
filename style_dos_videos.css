@@ -169,27 +169,40 @@ span.span_do_twitter{
 
 /*MAIN*/
 
-main{
+.conteudo_main{
     background-color: #333333;
-    max-width: 1523px;
-    height: auto;
+    max-width: 1450px;
     margin: auto;
-    padding: 30px;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .titulo_h1{
     color: white;
-    margin-bottom: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-    width: 105px;
+    width: auto;
+}
+
+.section_do_video{
+    margin-top: 40px;
+    max-width: 100%;
+    position: relative;
+    padding-bottom: 50%;
+}
+
+.video_principal{
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 .span_do_titulo_h1{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #22222298;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -223,18 +236,11 @@ main{
     padding: 10px;
 }
 
-a{
-    text-decoration: none;
-}
-
 /*FIM DO MAIN*/
 
 
 /*FOOTER*/
 
-footer{
-    padding: 50px;
-}
 
 .section_do_footer{
     text-align: center;
@@ -252,8 +258,8 @@ footer{
 }
 
 .section_da_casa{
-    display: inline-block; 
-    margin-right: 50px;
+    display: inline-block;
+    margin-left: 50px; 
 }
 
 .imagem_da_casa{
@@ -385,6 +391,15 @@ footer{
         display: block;
         width: 60px;
     }
+    
+    .imagem_do_anterior{
+        display: block;
+        width: 60px;
+    }
+
+    .section_do_footer{
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -396,6 +411,27 @@ footer{
     
     .imagem_de_fundo_branco{
         width: 50px;
+    }
+
+    .section_do_video{
+        margin-top: 40px;
+        max-width: 100%;
+        position: relative;
+        padding-bottom: 50%;
+        background-color: #FF5C26;
+    }
+    
+    .video_principal{
+        margin: auto;
+        display: block;
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section_do_footer{
+        margin-top: 50px;
     }
 }
 
@@ -423,6 +459,28 @@ footer{
 
     p.acesso_premium{
         font-size: 13px;
+    }
+
+    .section_do_video{
+        margin-top: 40px;
+        max-width: 100%;
+        position: relative;
+        padding-bottom: 50%;
+        background-color: #FF5C26;
+        margin-bottom: 70px;
+    }
+    
+    .video_principal{
+        margin: auto;
+        display: block;
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 140%;
+    }
+
+    .section_do_footer{
+        margin-top: 130px;
     }
 }
 
@@ -469,6 +527,15 @@ footer{
         display: block;
         width: 55px;
     }
+
+    .imagem_do_anterior{
+        display: block;
+        width: 55px;
+    }
+
+    .section_do_footer{
+        margin-top: 120px;
+    }
 }
 
 @media screen and (max-width: 385px){
@@ -510,6 +577,10 @@ footer{
 
     .section_de_cada_image{
         padding-left: 7px;
+    }
+    
+    .section_do_footer{
+        margin-top: 110px;
     }
 }
 
